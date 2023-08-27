@@ -85,7 +85,7 @@ void voter()
     gets(name);
 
     gotoxy(10,12);
-    printf("Enter your date of birth in the format(dd/mm/yyyy): \t");
+    printf("Enter your date of birth in the format(dd mm yyyy): \t");
     scanf("%d%d%d",&d,&m,&y);
     dateReturn=dateCheck(d,m,y);
     switch(dateReturn)
